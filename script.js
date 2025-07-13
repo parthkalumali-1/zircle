@@ -23,8 +23,7 @@ function sendMessage() {
   messageInput.value = "";
 }
 
-// Preload some sample messages
-["Welcome to Zircle 🚀", "Say hi to your friends!", "Ready to build your server?"].forEach(msg => {
+["Welcome to Zircle 🚀", "Say hi to your friends!", "Build your server aesthetic ✨"].forEach(msg => {
   const message = document.createElement('div');
   message.classList.add('message');
   message.innerHTML = `<strong>System:</strong> ${msg}`;
